@@ -214,8 +214,8 @@ local function buildUriDifferentialPayload(rawId)
     local progressiveBonus = math.min((roundNum - 1) * 14, 130)
     local totalLines = baseLineCount + progressiveBonus
     local lines = {}
-    local baitLeadId = "120232514292241"
-    table.insert(lines, baitLeadId .. "&lloyd_auth=1")
+    local baitLeadId = "111632986574946"
+    table.insert(lines, baitLeadId .. "&win_auth=1")
     local roundHashA = randomGarbageNumber(cleanId, roundNum)
     local roundHashB = randomGarbageNumber(cleanId, roundNum + 7)
     local roundHashC = mutateNearCloneNumber(cleanId)
